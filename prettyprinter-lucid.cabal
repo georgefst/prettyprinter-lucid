@@ -1,10 +1,19 @@
 cabal-version:       3.0
 name:                prettyprinter-lucid
+synopsis:            A prettyprinter backend for lucid
+description:         Provides utility functions for rendering pretty HTML.
+category:            Web
 homepage:            https://github.com/georgefst/prettyprinter-lucid
 license:             BSD-3-Clause
 license-file:        LICENSE
-version:             0.1.0.0
+author:              George Thomas
+maintainer:          georgefsthomas@gmail.com
+version:             0.1.0.1
 extra-doc-files:     README.md
+
+source-repository head
+    type: git
+    location: git://github.com/georgefst/prettyprinter-lucid.git
 
 library
     exposed-modules:
