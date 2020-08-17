@@ -11,6 +11,6 @@ renderHtml =
             STChar c -> toHtml $ T.singleton c
             STText _ t -> toHtml t
             STLine i -> br_ [] >> toHtml (T.replicate i $ T.singleton ' ')
-            STAnn ann content -> ann $ renderHtml content
-            STConcat contents -> foldMap renderHtml contents
+            STAnn ann content -> ann $ go content
+            STConcat contents -> foldMap go contents
      in pre_ . go
