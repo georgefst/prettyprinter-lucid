@@ -1,8 +1,8 @@
-module Prettyprinter.Lucid where
+module Prettyprinter.Lucid (renderHtml) where
 
 import qualified Data.Text as T
-import Lucid
-import Prettyprinter.Render.Util.SimpleDocTree
+import Lucid (Html, ToHtml (toHtml), br_, pre_)
+import Prettyprinter.Render.Util.SimpleDocTree (SimpleDocTree (..))
 
 renderHtml :: SimpleDocTree (Html () -> Html ()) -> Html ()
 renderHtml =
