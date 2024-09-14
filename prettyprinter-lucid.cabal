@@ -12,7 +12,7 @@ version:             0.2.0
 extra-doc-files:
     CHANGELOG.md
     README.md
-    doc/*
+    doc/example.png
 
 source-repository head
     type: git
