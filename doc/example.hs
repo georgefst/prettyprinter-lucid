@@ -1,14 +1,3 @@
-# Pretty HTML
-
-This is just a tiny library enabling [lucid](https://hackage.haskell.org/package/lucid) to be used as a backend for [prettyprinter](https://hackage.haskell.org/package/prettyprinter). This makes it easy to programmatically generate HTML documents with complex nested styling.
-
-# Example
-
-This code, adapted from `prettyprinter`'s main example, produces the following:
-
-![png](./doc/example.png)
-
-```hs
 {- cabal:
 build-depends: base, text, lucid, prettyprinter, prettyprinter-lucid
 -}
@@ -55,4 +44,3 @@ doc =
 
 style :: Text -> Attribute
 style = makeAttribute "style"
-```
