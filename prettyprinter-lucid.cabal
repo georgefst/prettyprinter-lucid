@@ -22,7 +22,7 @@ library
         base >= 4.12,
         lucid ^>= {2.9.12, 2.10, 2.11},
         prettyprinter ^>= 1.7.0,
-        text ^>= {1.2.3, 2.0},
+        text ^>= {1.2.3, 2.0, 2.1},
     hs-source-dirs:
         src
     ghc-options:
