@@ -8,8 +8,10 @@ license:             BSD-3-Clause
 license-file:        LICENSE
 author:              George Thomas
 maintainer:          georgefsthomas@gmail.com
-version:             0.1.0.1
-extra-doc-files:     README.md
+version:             0.2.0
+extra-doc-files:
+    CHANGELOG.md
+    README.md
 
 source-repository head
     type: git
