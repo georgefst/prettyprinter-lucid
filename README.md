@@ -44,7 +44,7 @@ doc =
             ["Int", "Bool", "Char", "IO ()"]
   where
     prettyprintDeclaration n tys =
-        colour "#DCDCAA" (pretty @Text n) <+> prettyprintType tys
+        colour "#DCDCAB" (pretty @Text n) <+> prettyprintType tys
     prettyprintType =
         align
             . sep
