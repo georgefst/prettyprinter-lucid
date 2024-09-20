@@ -32,7 +32,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install prettier
-        run: sudo apt install -y prettier
+        run: sudo snap install prettier
 
       - name: Set up GHC ${{ matrix.ghc-version }}
         uses: haskell-actions/setup@v2
